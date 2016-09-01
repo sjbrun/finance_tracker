@@ -5,5 +5,9 @@ class UsersController < ApplicationController
     @user_stocks = UserStock.where(user_id: current_user)
     @user = current_user
   end
+  
+  def my_friends
+    
+  end
 
 end
